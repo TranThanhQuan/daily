@@ -1,0 +1,16 @@
+<?php
+
+namespace Modules\{module}\src\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class {name} extends Authenticatable
+{
+    use HasFactory;
+
+    protected $fillable = [
+        
+    ];
+
+}

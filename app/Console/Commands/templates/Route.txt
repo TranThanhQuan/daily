@@ -1,0 +1,6 @@
+<?php
+
+Route::prefix('{module}')->name('{module}.')->middleware('can:{module}')->group(function(){
+    //Route gere
+
+});
